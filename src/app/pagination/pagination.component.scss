@@ -1,0 +1,23 @@
+.pagination > li
+{
+display: inline-block;
+border: 1px solid #ddd;
+background: #fff;
+padding: 10px;
+}
+
+.pagination>li>a
+{
+    color: blue;
+ 
+
+}
+
+.pagination>li>a:hover
+{
+    color: #006699;
+    padding-right: 10px;
+    cursor: pointer;
+    
+    
+}

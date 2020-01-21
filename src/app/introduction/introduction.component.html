@@ -1,0 +1,41 @@
+
+
+
+ <!--Introduction-->
+ <section id="about" class="introduction scrollto">
+
+    <div class="row clearfix">
+
+        <div class="col-3">
+            <div class="section-heading">
+                <h3>{{about.tagline}}</h3>
+                <h2 class="section-title">{{about.title}}</h2>
+                <p class="section-subtitle">{{about.subtitle}}</p>
+            </div>
+
+        </div>
+
+        <div class="col-2-3">
+
+            <!--Icon Block-->
+            <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.1s" *ngFor= "let IconQuotes of about.features">
+                <!--Icon-->
+                <div class="icon">
+                    <i class="fa fa-{{IconQuotes.icon}}"></i>
+                </div>
+                <!--Icon Block Description-->
+                <div class="icon-block-description">
+                    <h4>{{IconQuotes.title}}</h4>
+                    <p>{{IconQuotes.description}}</p>
+                </div>
+            </div>
+            <!--End of Icon Block-->
+
+        </div>
+
+    </div>
+
+
+</section>
+<!--End of Introduction-->
+
